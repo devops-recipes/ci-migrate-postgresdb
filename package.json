@@ -1,0 +1,27 @@
+{
+  "name": "ci-migrate-postgresdb",
+  "version": "0.0.0",
+  "description": "NodeJs packages and unit tests to test PG migrations",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha -R xunit-file test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ambarish2012/ci-migrate-postgresdb.git"
+  },
+  "author": "Ambarish Chitnis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ambarish2012/ci-migrate-postgresdb/issues"
+  },
+  "homepage": "https://github.com/ambarish2012/ci-migrate-postgresdb",
+  "dependencies": {
+    "node-pg-migrate": "2.11.1",
+    "pg": "7.3.0",
+    "chai": "4.1.2",
+    "mocha": "4.0.0",
+    "xunit-file": "0.0.5",
+    "knex": "0.13.0"
+  }
+}
