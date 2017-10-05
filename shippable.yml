@@ -10,4 +10,4 @@ build:
     # create a simple table in the database
     - psql -d test -f ./schema/simpleschema.sql -U postgres
     # run the migration
-    - ./
+    - ./node_modules/.bin/pg-migrate up

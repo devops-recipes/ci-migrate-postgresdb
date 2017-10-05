@@ -1,7 +1,7 @@
 exports.up = (pgm) => {
-  pgm.addColumns('role', { role_description: 'varchar (255)' });
+  pgm.addColumns('article', { article_author: 'varchar (255) NOT NULL' });
 };
 
 exports.down = (pgm) => {
-  pgm.dropColumns('role', ['role_description'], {ifExists: true})
+  pgm.dropColumns('article', ['article_author'], {ifExists: true})
 };
