@@ -8,10 +8,12 @@ services:
 
 build:
   ci:
+    - npm install
+    # create a database to run our migration tests
     - psql -c 'create database test;' -U postgres
     # create a simple table in the database
     - psql -d test -f ./schema/simpleschema.sql -U postgres
     # run the migration
-    - npm install
     - ./node_modules/.bin/pg-migrate up
+    # test the migration
     - npm test
