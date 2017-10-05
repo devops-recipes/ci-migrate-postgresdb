@@ -1,4 +1,4 @@
-<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Thu, 05 Oct 2017 20:53:06 GMT" time="0.032">
+<testsuite name="Mocha Tests" tests="2" failures="0" errors="0" skipped="0" timestamp="Thu, 05 Oct 2017 20:57:28 GMT" time="0.029">
 <testcase classname="Migration tests" name="Check if the article table exists" time="0.004"/>
-<testcase classname="Migration tests" name="Check if the article table has the column added during the migration" time="0.001"/>
+<testcase classname="Migration tests" name="Check if the article table has the column added during the migration" time="0"/>
 </testsuite>
