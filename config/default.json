@@ -1,9 +1,9 @@
 {
   "db": {
-    "user": "achitnis",
-    "password": "Shippable1234$",
-    "host": "testdb.cqq50jg1yzp7.us-west-2.rds.amazonaws.com",
+    "user": "shippable",
+    "password": "",
+    "host": "127.0.0.1",
     "port": 5432,
-    "name": "testdb"
+    "name": "test"
   }
 }
