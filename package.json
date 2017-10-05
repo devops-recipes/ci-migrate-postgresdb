@@ -4,7 +4,7 @@
   "description": "NodeJs packages and unit tests to test PG migrations",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/_mocha test.js"
+    "test": "./node_modules/.bin/_mocha test.js --exit"
   },
   "repository": {
     "type": "git",
